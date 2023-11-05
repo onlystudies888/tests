@@ -1,3 +1,5 @@
 let button = document.getElementById("click")
 
-button.textContent = "Hello"
+button.addEventListener("click",function(){
+    button.textContent = "Clicked"
+})
